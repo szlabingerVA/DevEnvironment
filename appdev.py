@@ -621,11 +621,11 @@ if selected_hor == "Overview":
                 st_echarts(optionG2,height=400,width="100%")
 
             #Eingabe-Dataframe öffnen
-            dfd=pd.read_excel(file,
-                            engine="openpyxl",
-                            sheet_name="Eingabe",
-                            na_filter=False,
-                            usecols="A")
+            #dfd=pd.read_excel(file,
+                            #engine="openpyxl",
+                            #sheet_name="Eingabe",
+                            #na_filter=False,
+                            #usecols="A")
 
             #Parameter ermitteln und initialisieren
             dfd={}
